@@ -4,7 +4,8 @@ public class Main {
   public static void main(String[] args) {
 
     String teamName = "All Time football XI";
-    System.out.println(teamName + ":");
+    System.out.println(teamName.trim().toUpperCase() + ":");
+
 
     StringBuffer footballPlayer = new StringBuffer();
 
